@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top-header {
+  font-family:"Times New Roman", serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 480px) {
+  .bio {
+   word-spacing: 0.03em;
+   letter-spacing: 0.03em;
+   font-family: sans-serif;
+   line-height: 1;
+   overflow: visible;
+   font-size: 1em;
+
+ }
+}
+
+ .background-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+ }
+
+.main-content {
+  font-size: 1em;
+  width: 100%;
+  font-family: sans-serif;
+  color: ghostwhite;
+}
+
+table, th, td {
+  border: 0.016em solid white;
+  font-family: Arial, sans-serif;
+}
+
+ .USC {
+   height:183px;
+   width:200px;
+   position:relative;
+   display: inline-block;
+   overflow: hidden;
+}
+
+.Track {
+   height: 200px;
+   width: 250px;
+   position: relative;
+   z-index: 1;
+   display: inline-block;
+   overflow: hidden;
+ }
+
+
+ .Crest {
+    width:200;
+    position: relative;
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .default-pic {
+
+}
+
+
+
+
+
+ footer {
+    font-weight: 100;
+
+  }
+
+  .about-list {
+      text-align: center;
+  }
+
+   .about-header {
+     text-align: center;
+   }
+
+   .links {
+     font-weight: 500;
+   }
